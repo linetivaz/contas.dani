@@ -1192,7 +1192,7 @@ dialog .row2 { display: flex; gap: 8px; flex-wrap: wrap }
 <script type="module">
 // Sincronização pelo Firebase (login com Google). Sem configuração, a página funciona só neste navegador.
 // Os dados das duas ficam num único documento: casas/<CASA>, um campo por registro.
-const FIREBASE_CONFIG = null;
+const FIREBASE_CONFIG = { apiKey: "AIzaSyC7J-DPwJxHqMlGccX0O_XRDfTDD9M2XI8", authDomain: "financas-lineti.firebaseapp.com", projectId: "financas-lineti", storageBucket: "financas-lineti.firebasestorage.app", messagingSenderId: "714622177070", appId: "1:714622177070:web:d6b5ec841504241632f4bf" };
 const CASA = "dani-mavi";
 const V = "10.12.2", G = `https://www.gstatic.com/firebasejs/${V}/`;
 const A = window.__app, $ = id => document.getElementById(id);
